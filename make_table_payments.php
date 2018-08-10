@@ -1,6 +1,6 @@
 <?php
 
-$contents = file_get_contents('bnm_payments.tsv');
+$contents = file_get_contents('sample_payments.tsv');
 
 $lines = explode("\n", $contents);
 
